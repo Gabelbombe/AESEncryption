@@ -8,7 +8,7 @@ Namespace Crypto
      * AESEncryption can safely encrypt and decrypt plain or binary data and
      * uses verification to ensure decryption was successful.
      *
-     * PHP version 5.3+
+     * PHP version 5
      *
      * LICENSE: This source file is subject to version 2.0 of the Apache license
      * that is available through the world-wide-web at the following URI:
