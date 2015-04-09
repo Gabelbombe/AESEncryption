@@ -120,7 +120,7 @@ Namespace Crypto
          */
         public function decrypt($data)
         {
-            $data (ctype_xdigit($data))
+            $data = (ctype_xdigit($data))
                 ? pack ('H*',$data)
                 : $data;
 
