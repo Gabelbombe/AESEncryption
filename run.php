@@ -1,6 +1,6 @@
 <?php
 
-include 'AESEncryption.php';
+include 'Crypto/AESEncryption.php';
 
 $key    = 'my secret key';
 $string = 'hello world';

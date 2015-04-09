@@ -1,23 +1,26 @@
 <?php
-
+/**
+ * This file contains the class AESEncryption
+ *
+ * AESEncryption can safely encrypt and decrypt plain or binary data and
+ * uses verification to ensure decryption was successful.
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to version 2.0 of the Apache license
+ * that is available through the world-wide-web at the following URI:
+ * https://www.apache.org/licenses/LICENSE-2.0.html.
+ *
+ * @author     Jd Daniel <dodomeki@gmail.com>
+ * @license    https://www.apache.org/licenses/LICENSE-2.0.html Apache 2.0
+ * @copyright  April, 09 2015 Jd Daniel
+ * @version    1.0.0
+ */
 Namespace Crypto
 {
     /**
-     * This file contains the class AESEncryption
-     *
-     * AESEncryption can safely encrypt and decrypt plain or binary data and
-     * uses verification to ensure decryption was successful.
-     *
-     * PHP version 5
-     *
-     * LICENSE: This source file is subject to version 2.0 of the Apache license
-     * that is available through the world-wide-web at the following URI:
-     * https://www.apache.org/licenses/LICENSE-2.0.html.
-     *
-     * @author     Jd Daniel <dodomeki@gmail.com>
-     * @license    https://www.apache.org/licenses/LICENSE-2.0.html Apache 2.0
-     * @copyright  April, 09 2015 Jd Daniel
-     * @version    1.0.0
+     * Class AESEncryption
+     * @package Crypto
      */
     Final Class AESEncryption
     {
@@ -36,7 +39,7 @@ Namespace Crypto
          * Construct the call optionally providing an encryption key
          *
          * @param string $key
-         * @throws RuntimeException if the PHP installation is missing criticals
+         * @throws \RuntimeException if the PHP installation is missing criticals
          */
         public function __construct($key = null)
         {
@@ -278,7 +281,7 @@ Namespace Crypto
          * @param int $keyLength
          * @param bool $rawOutput
          * @return string
-         * @throws RuntimeException if the algorithm is not found
+         * @throws \RuntimeException if the algorithm is not found
          */
         private function pbkdf2($algorithm, $password, $salt, $count = 1000, $keyLength = 0, $rawOutput = false)
         {
