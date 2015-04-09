@@ -30,7 +30,7 @@ From the command line, run the following:
     
 ## Requirements
 
-    * [PHP 5+]        (http://php.net/)
-    * [Mcrypt Module] (http://php.net/manual/en/book.mcrypt.php)
-    * [Hash Module]   (http://php.net/manual/en/book.hash.php)
-    * [CType Module]  (http://php.net/manual/en/book.ctype.php)
+ * [PHP 5+]        (http://php.net/)
+ * [Mcrypt Module] (http://php.net/manual/en/book.mcrypt.php)
+ * [Hash Module]   (http://php.net/manual/en/book.hash.php)
+ * [CType Module]  (http://php.net/manual/en/book.ctype.php)
