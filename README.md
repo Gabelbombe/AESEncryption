@@ -11,7 +11,7 @@ encrypted with with the compressed data and the IV is prepended to the encrypted
 A new IV is generated using dev/urandom before each encryption operation. If the script is running on a Windows 
 machine and the PHP version is less than 5.3, the class will use MCRYPT_RAND to generate an IV.
 
-Depending on if parameter $raw_output is true or false, the encryption method will return lowercase hexit by 
+Depending on if parameter $rawOutput is true or false, the encryption method will return lowercase hexit by 
 default or raw binary of the encrypted data.
 
 Decryption will reverse the encryption process and check that the computed md5 digest is equal to the stored md5 
