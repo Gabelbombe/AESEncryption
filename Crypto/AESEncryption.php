@@ -11,7 +11,7 @@
  * that is available through the world-wide-web at the following URI:
  * https://www.apache.org/licenses/LICENSE-2.0.html.
  *
- * @author     Jd Daniel <dodomeki@gmail.com>
+ * @author     ehime :: Jd Daniel <dodomeki@gmail.com>
  * @license    https://www.apache.org/licenses/LICENSE-2.0.html Apache 2.0
  * @copyright  April, 09 2015 Jd Daniel
  * @version    1.0.0

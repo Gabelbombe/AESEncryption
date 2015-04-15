@@ -1,9 +1,11 @@
 <?php
 /**
- * Jd Daniel
+ * @author     ehime :: Jd Daniel <dodomeki@gmail.com>
+ * @license    https://www.apache.org/licenses/LICENSE-2.0.html Apache 2.0
+ * @copyright  April, 15 2015 Jd Daniel
+ * @version    1.0.0
  *
  * Run with: php -f StandaloneLibrary.php
- *
  */
 Namespace Crypto
 {
