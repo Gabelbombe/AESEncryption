@@ -74,7 +74,7 @@ Namespace Crypto
         /**
          * Runs decrypt whether we have the OpenSSL mod or not by leveraging *nix
          *
-        \        * @param $cipher
+         * @param $cipher
          * @return string
          */
         public function decrypt($cipher)
@@ -100,7 +100,7 @@ Namespace
     echo 'Decrypted:   ';
     echo $crypto->decrypt($cypher) . "\n";
 
-    echo "\n";
+        echo "\n";
 
     unset($crypto, $cypher); // fin..
 }
